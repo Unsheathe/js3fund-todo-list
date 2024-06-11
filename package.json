@@ -1,0 +1,16 @@
+{
+  "name": "js3fund-todo-list",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server ."
+  },
+  "keywords": [],
+  "author": "Fernando and Mark",
+  "license": "ISC",
+  "description": "two chads create le best to-do list known to mankind",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

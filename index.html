@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Structure:
+        H H H Key: (H)eader
+        S M A   (S)idebar (M)ain (A)side
+        F F F   (F)ooter
+        ----
+        S. contains del/complete buttons
+        M. contains list
+        A. contains add functions
+     -->
+    <div class="grid-container">
+        <header class="header">
+            <h1>To Do List-maxxing!</h1>
+        </header>
+        <nav class="sidebar">
+            <h6>complete or delete</h6>
+            <input type="checkbox"> words
+            <button onClick="removeCompletedTasks()">Remove Completed</button>
+        </nav>
+        <main class="main-content">
+            <h2>le list</h2>
+            <div id="listDisplay"></div>
+        </main>
+        <aside class="aside">
+            <h6>create a list</h6>
+            <div class="input-container">
+                <input type="text" id='newTask' placeholder='I need to...'input>
+                <button id='newTaskButton'>Add Task</button>
+            </div>
+            
+        </aside>
+        <footer class="footer">
+            <h3>test</h3>
+            <p>footer content</p>
+        </footer>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+<!--
+    -can view all tasks
+    -can add items
+    -can cross out/complete items
+    -can remove items via DOM
+    -aesthetic
+
+    HINTS:
+    make html skeleton
+    array for todo list
+    button w string input line, adds to todo list
+-->
+
