@@ -3,14 +3,14 @@ h1 {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans MS';
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: black; 
 }
 
 .grid-container {
@@ -68,11 +68,9 @@ body {
     text-align: center;
 }
 
-body{
-    background-color: black;
-
-
 #listDisplay {
     margin-top: 15px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
 }
+
+
